@@ -11,7 +11,7 @@
 > relation<-lm(y~x)
 > summary(relation)
 #to find for 9.5 hours of study time assign 'a'
-> a<-data.frame(x=9.5)
+> a<-data.frame(x=9.25)
 #print the results 
 > result<-predict(relation,a)
 > result
